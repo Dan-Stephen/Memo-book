@@ -1,13 +1,15 @@
-#System module:
-sys.path 表示 Python 搜索模块的路径和查找顺序：
+# System module:
 
-sys.platform 显示当前操作系统信息：
+  sys.path 表示 Python 搜索模块的路径和查找顺序：
 
-sys.version python version information
+  sys.platform 显示当前操作系统信息：
 
-sys.exc_info() 可以显示 Exception 的信息
+  sys.version python version information
 
-#OS module
+  sys.exc_info() 可以显示 Exception 的信息
+
+# OS module
+
 *文件路径操作
   os.getcwd() 当前目录
   os.listdir(os.curdir) 当前目录下的文件
@@ -28,7 +30,8 @@ sys.exc_info() 可以显示 Exception 的信息
     os.path.join(a, *p)：使用系统的路径分隔符，将各个部分合成一个路径
   其他
 
-#修饰符
+# 修饰符
+
   修饰符是这样的一种函数，它接受一个函数作为输入，通常输出也是一个函数
 
   用 @ 来使用修饰符：
