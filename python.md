@@ -41,5 +41,10 @@
     decorators factories 是返回修饰器的函数；
     它的作用在于产生一个可以接受参数的修饰器。
     
+  应用：
+    @classmethod 将一个对象方法转换了类方法
+    @property (只读)模仿 Java 的getters 和 setters 的方法，调用方法时可以省去括号
+    Numpy 的 @vectorize 修饰符： 将一个函数转换为 ufunc
 
-    
+# OOP
+  
